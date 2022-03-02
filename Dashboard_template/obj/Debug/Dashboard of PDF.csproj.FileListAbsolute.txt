@@ -1,0 +1,12 @@
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\bin\Debug\Master of PDF.exe.config
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\bin\Debug\Master of PDF.exe
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\bin\Debug\Master of PDF.pdb
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Dashboard of PDF.csproj.AssemblyReference.cache
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master_of_PDF.Form1.resources
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master_of_PDF.Form2.resources
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master_of_PDF.Form3.resources
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master_of_PDF.Properties.Resources.resources
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Dashboard of PDF.csproj.GenerateResource.cache
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Dashboard of PDF.csproj.CoreCompileInputs.cache
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master of PDF.exe
+D:\Program\source\repos\勉強用\Master of PDF\Master of PDF\obj\Debug\Master of PDF.pdb
