@@ -40,10 +40,6 @@
             this.btnMarge = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.btnMinimaized = new System.Windows.Forms.Button();
-            this.btnMaximaized = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelSlideMenu.SuspendLayout();
@@ -51,7 +47,6 @@
             this.panelMargeSubMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelTitleBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelChildForm
@@ -59,15 +54,15 @@
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
             this.panelChildForm.Controls.Add(this.pictureBox2);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(150, 25);
+            this.panelChildForm.Location = new System.Drawing.Point(150, 0);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(567, 425);
+            this.panelChildForm.Size = new System.Drawing.Size(567, 450);
             this.panelChildForm.TabIndex = 0;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(6, 53);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(549, 346);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -84,10 +79,10 @@
             this.panelSlideMenu.Controls.Add(this.btnMarge);
             this.panelSlideMenu.Controls.Add(this.panelLogo);
             this.panelSlideMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSlideMenu.Location = new System.Drawing.Point(0, 25);
+            this.panelSlideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSlideMenu.Margin = new System.Windows.Forms.Padding(0);
             this.panelSlideMenu.Name = "panelSlideMenu";
-            this.panelSlideMenu.Size = new System.Drawing.Size(150, 425);
+            this.panelSlideMenu.Size = new System.Drawing.Size(150, 450);
             this.panelSlideMenu.TabIndex = 1;
             // 
             // panelSplitSubMenu
@@ -217,57 +212,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panelTitleBar
-            // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-            this.panelTitleBar.Controls.Add(this.btnMinimaized);
-            this.panelTitleBar.Controls.Add(this.btnMaximaized);
-            this.panelTitleBar.Controls.Add(this.btnClose);
-            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(0, 0);
-            this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(717, 25);
-            this.panelTitleBar.TabIndex = 1;
-            // 
-            // btnMinimaized
-            // 
-            this.btnMinimaized.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMinimaized.FlatAppearance.BorderSize = 0;
-            this.btnMinimaized.Font = new System.Drawing.Font("BIZ UDゴシック", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimaized.Location = new System.Drawing.Point(597, 0);
-            this.btnMinimaized.Name = "btnMinimaized";
-            this.btnMinimaized.Size = new System.Drawing.Size(40, 25);
-            this.btnMinimaized.TabIndex = 2;
-            this.btnMinimaized.Text = "ー";
-            this.btnMinimaized.UseVisualStyleBackColor = true;
-            this.btnMinimaized.Click += new System.EventHandler(this.btnMinimaized_Click);
-            // 
-            // btnMaximaized
-            // 
-            this.btnMaximaized.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMaximaized.FlatAppearance.BorderSize = 0;
-            this.btnMaximaized.Font = new System.Drawing.Font("BIZ UDゴシック", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMaximaized.Location = new System.Drawing.Point(637, 0);
-            this.btnMaximaized.Name = "btnMaximaized";
-            this.btnMaximaized.Size = new System.Drawing.Size(40, 25);
-            this.btnMaximaized.TabIndex = 1;
-            this.btnMaximaized.Text = "□";
-            this.btnMaximaized.UseVisualStyleBackColor = true;
-            this.btnMaximaized.Click += new System.EventHandler(this.btnMaximaized_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Font = new System.Drawing.Font("BIZ UDゴシック", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(677, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 25);
-            this.btnClose.TabIndex = 0;
-            this.btnClose.Text = "×";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -276,8 +220,6 @@
             this.ClientSize = new System.Drawing.Size(717, 450);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelSlideMenu);
-            this.Controls.Add(this.panelTitleBar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(377, 310);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -290,7 +232,6 @@
             this.panelMargeSubMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelTitleBar.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -309,10 +250,6 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panelTitleBar;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnMinimaized;
-        private System.Windows.Forms.Button btnMaximaized;
     }
 }
 

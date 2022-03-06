@@ -149,43 +149,6 @@ namespace Master_of_PDF
 
         }
 
-        /// <summary>
-        /// 閉じるボタンを押した時の処理
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        /// <summary>
-        /// 最大化ボタンの処理
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnMaximaized_Click(object sender, EventArgs e)
-        {
-            switch (this.WindowState)
-            {
-                case FormWindowState.Maximized:
-                    this.WindowState = FormWindowState.Normal;
-                    break;
-
-                case FormWindowState.Normal:
-                    this.WindowState = FormWindowState.Maximized;
-                    break;
-            }
-        }
-
-        /// <summary>
-        /// 最小化ボタンの処理
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnMinimaized_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
+        
     }
 }
